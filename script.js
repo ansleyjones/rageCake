@@ -139,6 +139,7 @@ $(document).ready(function() {
 
 
 
+
 //////////FUNCTION FOR APPENDING FORM INFO TO DATA ARRAY///////////
     $(".getStaged form").on("click", "button", function(e){
       e.preventDefault();
@@ -187,6 +188,7 @@ $(document).ready(function() {
     home.renderEventDisplay($(".alltab"));
 
 });
+
 
 
 

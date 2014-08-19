@@ -213,6 +213,8 @@ aside {
 .calendar {
   background-color: white;
   width: 420px; }
+  .calendar table {
+    background-color: white; }
   .calendar tr {
     color: grey; }
   .calendar tr:hover {
@@ -256,6 +258,19 @@ aside {
   top: 0px;
   left: 0px;
   margin-top: 19px; }
+  .calendar.expand span.mic {
+    display: inline-block;
+    position: relative; }
+  .calendar.expand span.drop {
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    background-color: white;
+    border: 1px solid #e4e4e4; }
+  .calendar.expand span.drop.hidden {
+    display: none; }
 
 #calendar_icon {
   height: 64px;
@@ -266,6 +281,20 @@ aside {
   right: -43px;
   display: none;
   cursor: pointer; }
+
+.getStaged {
+  margin: auto;
+  width: 500px;
+  background-color: white;
+  border: 1px solid #e4e4e4; }
+  .getStaged h2 {
+    font-size: 45px;
+    color: black;
+    text-align: center; }
+  .getStaged form {
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 20px; }
 
 .main, .eventsCal, .getStaged {
   display: none; }

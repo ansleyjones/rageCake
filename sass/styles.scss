@@ -273,7 +273,9 @@ aside{
 .calendar {
   background-color: white;
   width: 420px;
-
+  table{
+    background-color: white;
+  }
   tr {
     color: grey;
   }
@@ -338,6 +340,22 @@ aside{
   top: 0px;
   left: 0px;
   margin-top: 19px;
+  span.mic {
+    display: inline-block;
+    position: relative;
+  }
+  span.drop {
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    background-color: white;
+    border: 1px solid $borderColor;
+  }
+  span.drop.hidden {
+    display: none;
+  }
 }
 
 #calendar_icon {
@@ -351,6 +369,22 @@ aside{
   cursor: pointer;
 }
 
+.getStaged{
+  margin: auto;
+  width: 500px;
+  background-color: white;
+  border: 1px solid $borderColor;
+  h2{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+  }
+  form{
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 20px;
+  }
+}
 
 /////////////////////////////
 /////////////////////////////
